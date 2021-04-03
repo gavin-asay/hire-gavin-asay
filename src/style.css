@@ -106,17 +106,19 @@ section {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
     margin: 15px 0;
 }
 
 section h2 {
-    margin: 0 30px;
-    min-width: 150px;
+    margin: 2em 0;
+    width: 100%;
+    text-align: center;
+
 }
 
 section > div {
     border-left: 5px solid #2b6891;
-    padding-left: 15px;
     flex-grow: 1;
 }
 
@@ -148,63 +150,33 @@ section > div {
 
 /* CSS grid */
 
-.portfolio-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 20px;
+.proj-card {
+    min-width: 400px;
+    width: 25%;
+    box-shadow: 3px black;
+    border-left: 5px solid #2b6891;
+    border-right: 5px solid #2b6891;
+    margin: 1em;
+    background-color:rgb(206, 227, 235);
+    box-shadow: 10px 10px 5px gray;
+    border-radius: 10px;
 }
 
-.grid-item {
-    grid-area: span 1/span 1;
-    border: 6px solid #acbb9c;
-    box-sizing: border-box;
-    display: flex;
-    align-items: flex-end;
-    position: relative;
-    overflow: hidden;
-}
-
-.grid-item a {
-    grid-area: span 1/span 1;
-    box-sizing: border-box;
-    display: flex;
-    align-items: flex-end;
-    position: relative;
-    overflow: hidden;
-}
-
-.grid-item img {
+.proj-card img {
     width: 100%;
-    margin: 0;
-    display: block;
+    padding: 0;
 }
 
-.grid-item.emphasize {
-    grid-area: span 2/span 2;
+.proj-card :not(img) {
+    text-align: center;
+    padding: 0 1em;
 }
 
-.grid-item div, .grid-item a div {
-    background-image: linear-gradient(to right, rgba(172, 187, 156, 1), rgba(172, 187, 156, 0.5));
-    position: absolute;
-    width: 100%;
-    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
-    transform: translate(100%);
-    transition: transform 0.5s;
-}
-
-.grid-item h3 {
-    font-size: 1.5vw;
-    margin: 0;
-}
-
-.grid-item h4 {
-    font-size: 1.2vw;
-    margin: 0;
-}
-
-.grid-item:hover div, .grid-item a:hover div, .grid-item img:hover div {
-    transform: translate(0);
-    transition: transform 0.5s;
+.proj-card div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1em;
 }
 
 /* Contact me */
@@ -272,23 +244,6 @@ address ul li {
         min-width: initial;
         padding-bottom: 10px;
         text-align: center;
-    }
-
-    .portfolio-grid {
-        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-        grid-gap: 15px;
-    }
-
-    .grid-item div {
-        transform: translate(0);
-    }
-
-    .grid-item div h3 {
-        font-size: 21px;
-    }
-
-    .grid-item div h4 {
-        font-size: 16px;
     }
 
     address {

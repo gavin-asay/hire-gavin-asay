@@ -1,4 +1,5 @@
 import React from 'react';
+import Project from '../Project';
 
 function Portfolio() {
 	const projects = [
@@ -21,7 +22,7 @@ function Portfolio() {
 			description: 'Full-stack blogging app with APIs for blog posts, users, and comments',
 			github: 'https://github.com/gavin-asay/nodevalue-tech-blog',
 			deploy: 'https://fast-journey-11216.herokuapp.com/',
-			image: require('../../assets/images/nodevalue_blog.png'),
+			image: require('../../assets/images/nodevalue_blog.png').default,
 		},
 		{
 			title: 'Offline Budget Tracker',
@@ -55,3 +56,5 @@ function Portfolio() {
 		</section>
 	);
 }
+
+export default Portfolio;
