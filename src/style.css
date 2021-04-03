@@ -12,6 +12,7 @@ html {
 
 body {
     margin: 0;
+    background-color: lightblue;
 }
 
 h1, h2, h3, h4 {
@@ -28,7 +29,7 @@ p, address, ul {
 }
 
 p {
-    margin: 0;
+    max-width: 75em;
 }
 
 a {
@@ -40,22 +41,23 @@ a {
 header {
     padding: 15px;
     background-color: #aaaaaa;
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)), url("./assets/images/IMG_1032.jpg");
+    background-image: linear-gradient(rgba(173, 216, 230, 0), rgba(173, 216, 230, 1)), url("./assets/images/IMG_1032.jpg");
     background-size: cover;
     padding-bottom: 30px;
+    height: 250px;
 }
 
 header div {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: end;
     align-items: flex-end;
     width: 80%;
     margin: 0 auto;
 }
 
-header img {
-    height: 300px;
+img {
+    height: 400px;
     border-radius: 35px;
     padding: 0 20px 20px 20px;
 }
