@@ -24,7 +24,7 @@ h2 {
     font-size: 27px;
 }
 
-p, address, ul {
+p, address, ul, label {
     font-size: 21px;
 }
 
@@ -194,6 +194,28 @@ address ul li {
 
 .contact-link {
     width: 50px;
+}
+
+input, textarea {
+    display: block;
+    width: 20em;
+    font-size: 21px;
+    padding: 10px;
+    margin: 5px;
+    max-width: 80%;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 139, 0.5);
+}
+
+textarea {
+    height: 10em;
+    width: 40em;
+    max-width: 100%;
+}
+
+label {
+    margin: 5px;
 }
 
 /* Media queries */

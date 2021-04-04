@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from '../Nav';
 
-function Header() {
+function Header({ pageState }) {
 	return (
 		<header>
 			<div>
@@ -10,7 +10,7 @@ function Header() {
 					<br />
 					Web Developer, MERN Stack
 				</h1>
-				<Nav />
+				<Nav pageState={pageState} />
 			</div>
 		</header>
 	);

@@ -1,20 +1,28 @@
 import React from 'react';
 
-function Nav() {
+function Nav({ pageState }) {
 	return (
 		<nav>
 			<ul>
 				<li>
-					<a href='#about-me'>About Me</a>
+					<a href='#about-me' id='About' onClick={() => pageState('About')}>
+						About Me
+					</a>
 				</li>
 				<li>
-					<a href='#portfolio'>Portfolio</a>
+					<a href='#portfolio' id='Portfolio' onClick={() => pageState('Portfolio')}>
+						Portfolio
+					</a>
 				</li>
 				<li>
-					<a href='#contact-me'>Contact Me</a>
+					<a href='#contact-me' id='Contact' onClick={() => pageState('Contact')}>
+						Contact Me
+					</a>
 				</li>
 				<li>
-					<a href='#resume'>Resume</a>
+					<a href='#resume' id='Resume' onClick={() => pageState('Resume')}>
+						Resume
+					</a>
 				</li>
 			</ul>
 		</nav>
