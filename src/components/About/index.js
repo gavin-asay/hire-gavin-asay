@@ -3,7 +3,7 @@ import portrait from '../../assets/images/IMG_0190.jpeg';
 
 function About() {
 	return (
-		<section>
+		<section id='about'>
 			<div>
 				<img src={portrait} alt="It's me, Gavin!" />
 			</div>
