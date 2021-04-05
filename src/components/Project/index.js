@@ -9,8 +9,16 @@ function Project({ project }) {
 			<h3>{title}</h3>
 			<p>{description}</p>
 			<div className='card-links'>
-				<a href={github}>GitHub Repo</a>
-				{deploy && <a href={deploy}>Deployed Site</a> /* not all projects have a deploy */}
+				<a href={github} target='_blank' rel='noreferrer'>
+					GitHub Repo
+				</a>
+				{
+					deploy && (
+						<a href={deploy} target='_blank' rel='noreferrer'>
+							Deployed Site
+						</a>
+					) /* not all projects have a deploy */
+				}
 			</div>
 		</div>
 	);
