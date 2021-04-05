@@ -24,7 +24,7 @@ h2 {
     font-size: 1.6875rem;
 }
 
-p, address, ul, label {
+p, address, ul, label, a {
     font-size: 1.3125rem;
 }
 
@@ -253,6 +253,12 @@ img.logo {
     height: auto;
     border-radius: 0;
     padding: 0 1em;
+}
+
+footer {
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    padding: 1em;
 }
 
 /* Media queries */

@@ -18,7 +18,6 @@ function Resume() {
 				</p>
 			</div>
 			<div className='download'>
-				<img src={require('../../assets/images/resume.png').default} alt='resume' />
 				<div className='dload-links'>
 					<a
 						href={require('../../assets/docs/Resume_GavinAsay_dev.docx').default}
@@ -35,6 +34,7 @@ function Resume() {
 						Download as PDF
 					</a>
 				</div>
+				<img src={require('../../assets/images/resume.png').default} alt='resume' />
 			</div>
 		</section>
 	);
