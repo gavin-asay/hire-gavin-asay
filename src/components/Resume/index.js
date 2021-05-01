@@ -34,7 +34,7 @@ function Resume() {
 						Download as PDF
 					</a>
 				</div>
-				<img src={require('../../assets/images/resume.png').default} alt='resume' />
+				<img src={require('../../assets/images/resume.png').default} className='res-img' alt='resume' />
 			</div>
 		</section>
 	);

@@ -6,8 +6,6 @@ function About() {
 		<section id='about'>
 			<div>
 				<img src={portrait} alt="It's me, Gavin!" />
-			</div>
-			<div>
 				<p>Hello! Thank you for visiting.</p>
 				<p>
 					My name is Gavin Asay. I am a MERN stack web developer, coming from the University of Utah coding boot camp.
