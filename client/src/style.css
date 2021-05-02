@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Spartan|Roboto");
 
 * {
-    font-family: 'Roboto', 'Helvetica Neue', sans-serif; /* Try google font spartan */
+    font-family: 'Roboto', 'Helvetica Neue', sans-serif;
 }
 
 html {
@@ -38,8 +38,11 @@ strong {
     font-weight: bold;
 }
 
-a {
+.text-link {
     text-decoration: none;
+    color: #2b6891;
+    background-color:rgba(255, 255, 255, 0.65);
+    padding: 6px;
 }
 
 /* Header styles */
@@ -97,6 +100,7 @@ nav ul li:hover {
 nav ul li a {
     color: black;
     text-decoration: none;
+    background-color: transparent;
 }
 
 .current {
@@ -176,6 +180,11 @@ section > div {
     height: auto;
 }
 
+hr {
+    color: #EEEEEE;
+    width: 90%;
+}
+
 .proj-card p {
     box-sizing: border-box;
     margin: 0;
@@ -238,10 +247,24 @@ input, textarea {
 textarea {
     height: 10em;
     width: 100%;
+    box-sizing: border-box;
+}
+
+input[type='submit'] {
+    width: 100%;
 }
 
 label {
     margin: 5px;
+}
+
+.form-error {
+    font-style: italic;
+    color: red;
+}
+
+.success {
+    color: green;
 }
 
 .links {

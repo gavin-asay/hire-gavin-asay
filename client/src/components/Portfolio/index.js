@@ -26,7 +26,7 @@ function Portfolio() {
 		},
 		{
 			title: 'Offline Budget Tracker',
-			description: 'Progressive Web App with offline function powered by indexedDB and service worker',
+			description: 'Progressive Web App with offline function powered by indexedDB',
 			github: 'https://github.com/gavin-asay/offline-budget-tracker',
 			deploy: 'https://damp-reaches-81626.herokuapp.com/',
 			image: require('../../assets/images/budget_tracker.png').default,
@@ -40,7 +40,7 @@ function Portfolio() {
 		},
 		{
 			title: 'secretmaker',
-			description: 'JavaScript password generator',
+			description: 'Simple native JavaScript password generator',
 			github: 'https://github.com/gavin-asay/secretmaker',
 			deploy: 'https://gavin-asay.github.io/secretmaker/',
 			image: require('../../assets/images/pwordpreview.png').default,

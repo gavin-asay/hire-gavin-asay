@@ -6,6 +6,7 @@ function Project({ project }) {
 	return (
 		<div className='proj-card'>
 			<img src={image} alt={title} />
+			<hr />
 			<h3>{title}</h3>
 			<p>{description}</p>
 			<div className='card-links'>

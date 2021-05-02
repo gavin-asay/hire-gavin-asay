@@ -23,6 +23,7 @@ function Resume() {
 						href={require('../../assets/docs/Resume_GavinAsay_dev.docx').default}
 						download='Resume_GavinAsay_dev.docx'
 						type='application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+						className='text-link'
 					>
 						Download as .docx
 					</a>
@@ -30,6 +31,7 @@ function Resume() {
 						href={require('../../assets/docs/Resume_GavinAsay_dev.pdf').default}
 						download='Resume_GavinAsay_dev.pdf'
 						type='application/pdf'
+						className='text-link'
 					>
 						Download as PDF
 					</a>
