@@ -10,7 +10,9 @@ app.use(express.json());
 
 app.use('/images', express.static(path.join(__dirname, '../client/images')));
 
-app.use('/', express.static(path.join(__dirname, '../client/build')));
+if (process.env.NODE_ENV === 'production') {
+	app.use(express.static(path.join(__dirname, '../client/build')));
+}
 
 app.post('/api/sendmessage', async (req, res) => {
 	try {
