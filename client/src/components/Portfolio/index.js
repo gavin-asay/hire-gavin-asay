@@ -45,6 +45,13 @@ function Portfolio() {
 			deploy: 'https://gavin-asay.github.io/secretmaker/',
 			image: require('../../assets/images/pwordpreview.png').default,
 		},
+		{
+			title: 'Watchtower',
+			description: 'MERN stack hub for DIY smart devices and sensors',
+			github: 'https://github.com/zackaryanderson/watchtower/',
+			deploy: 'https://safe-taiga-31978.herokuapp.com/',
+			image: require('../../assets/images/watchtower.png').default,
+		},
 	];
 
 	return (
