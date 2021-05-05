@@ -254,6 +254,10 @@ input[type='submit'] {
     width: 100%;
 }
 
+.ready {
+    background-color: rgb(126, 240, 126);
+}
+
 label {
     margin: 5px;
 }
