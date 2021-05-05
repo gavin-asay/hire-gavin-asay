@@ -246,12 +246,13 @@ input, textarea {
 }
 
 textarea {
+    width: 95%;
     height: 10em;
     box-sizing: border-box;
 }
 
 input[type='submit'] {
-    width: 100%;
+    width: 95%;
 }
 
 .ready {
