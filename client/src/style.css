@@ -240,13 +240,13 @@ input, textarea {
     font-size: 21px;
     padding: 10px;
     margin: 5px;
-    max-width: 100%;
+    max-width: 95%;
     border: none;
+    box-sizing: border-box;
 }
 
 textarea {
     height: 10em;
-    width: 100%;
     box-sizing: border-box;
 }
 
