@@ -4,6 +4,13 @@ import Project from '../Project';
 function Portfolio() {
 	const projects = [
 		{
+			title: 'Rounds',
+			description: 'React/Redux app for easy, mobile-friendly data tracking',
+			github: 'https://github.com/gavin-asay/rounds',
+			deploy: 'https://desolate-castle-27716.herokuapp.com/',
+			image: require('../../assets/images/rounds.png').default,
+		},
+		{
 			title: 'Cravings',
 			description: 'Front-end food finder using AJAX and Materialize.css',
 			github: 'https://github.com/gavin-asay/Project-1',
@@ -44,13 +51,6 @@ function Portfolio() {
 			github: 'https://github.com/gavin-asay/secretmaker',
 			deploy: 'https://gavin-asay.github.io/secretmaker/',
 			image: require('../../assets/images/pwordpreview.png').default,
-		},
-		{
-			title: 'Watchtower',
-			description: 'MERN stack hub for DIY smart devices and sensors',
-			github: 'https://github.com/zackaryanderson/watchtower/',
-			deploy: 'https://safe-taiga-31978.herokuapp.com/',
-			image: require('../../assets/images/watchtower.png').default,
 		},
 	];
 

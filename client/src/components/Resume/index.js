@@ -13,8 +13,8 @@ function Resume() {
 					<strong>Applications:</strong> Git/GitHub, MongoDB, MySQL
 				</p>
 				<p>
-					<strong>Tools:</strong> Express, Node, React, Handlebars, Bootstrap, Materialize.css, jQuery, Sequelize,
-					Mongoose
+					<strong>Tools:</strong> Express, Node, React, Redux, Handlebars, Bootstrap, Materialize.css, jQuery,
+					Sequelize, Mongoose, GraphQL, styled-components
 				</p>
 			</div>
 			<div className='download'>
