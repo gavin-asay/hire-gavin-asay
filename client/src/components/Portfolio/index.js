@@ -7,7 +7,7 @@ function Portfolio() {
 			title: 'Rounds',
 			description: 'React/Redux app for easy, mobile-friendly data tracking',
 			github: 'https://github.com/gavin-asay/rounds',
-			deploy: 'https://desolate-castle-27716.herokuapp.com/',
+			deploy: 'https://gavin-asay.github.io/rounds/',
 			image: require('../../assets/images/rounds.png').default,
 		},
 		{
