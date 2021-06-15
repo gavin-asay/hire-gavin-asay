@@ -39,13 +39,6 @@ function Portfolio() {
 			image: require('../../assets/images/budget_tracker.png').default,
 		},
 		{
-			title: 'refactored-disco',
-			description: 'Back-end for social media API using express.js and MongoDB',
-			github: 'https://github.com/gavin-asay/refactored-disco',
-			deploy: null,
-			image: require('../../assets/images/refactored_disco.png').default,
-		},
-		{
 			title: 'secretmaker',
 			description: 'Simple native JavaScript password generator',
 			github: 'https://github.com/gavin-asay/secretmaker',
