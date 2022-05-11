@@ -4,13 +4,6 @@ import Project from '../Project';
 function Portfolio() {
 	const projects = [
 		{
-			title: 'Rounds',
-			description: 'React/Redux app for easy, mobile-friendly data tracking',
-			github: 'https://github.com/gavin-asay/rounds',
-			deploy: 'https://gavin-asay.github.io/rounds/',
-			image: require('../../assets/images/rounds.png').default,
-		},
-		{
 			title: 'Cravings',
 			description: 'Front-end food finder using AJAX and Materialize.css',
 			github: 'https://github.com/gavin-asay/Project-1',
